@@ -1,0 +1,44 @@
+name: ludo_game
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  connectivity_plus: ^7.1.0
+  google_fonts: ^8.0.2
+  firebase_core: ^4.9.0
+  firebase_auth: ^6.5.1
+  image_picker: ^1.2.2
+  cloud_firestore: ^6.4.1
+  shared_preferences: ^2.5.5
+  flame: ^1.21.0
+  flame_audio: ^2.10.5
+  firebase_database: ^12.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon.png"
